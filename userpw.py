@@ -15,6 +15,7 @@ def newuser():
     pwd = raw_input('passed: ')
     db[name] = pwd
 
+
 def olduser():
     name = raw_input('login: ')
     pwd = raw_input("password: ")

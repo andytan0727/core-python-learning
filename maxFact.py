@@ -13,4 +13,5 @@ def show_max_factor(num):
         print num, 'is prime'
 
 
-show_max_factor(133)
+for num in range(100):
+    show_max_factor(133)
